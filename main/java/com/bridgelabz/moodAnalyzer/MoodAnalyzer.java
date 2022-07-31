@@ -3,10 +3,15 @@ package com.bridgelabz.moodAnalyzer;
 
 public class MoodAnalyzer {
 
-	public static void main(String[] args) {
-		
-		System.out.println(" Welcome To Mood Analyzer Problem");
-
+	
+	    public String analyzeMood(String message) {
+	    	
+	        if (message.contains("I am in sad mood"))
+	            return "SAD";
+	        else
+	            return "HAPPY";
+	    
 	}
+	
 
 }
